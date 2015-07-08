@@ -1,0 +1,12 @@
+# Eclipse artifacts
+/.project
+
+/.classpath
+
+/.settings
+
+
+/bin
+/target
+
+/.git
