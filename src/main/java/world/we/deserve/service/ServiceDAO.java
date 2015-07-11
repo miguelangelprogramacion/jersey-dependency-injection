@@ -3,21 +3,20 @@
  */
 package world.we.deserve.service;
 
+import org.jvnet.hk2.annotations.Service;
+
 /**
  * @author Miguel Ángel Fernández Fernández
  *
  */
+@Service
 public class ServiceDAO implements IServiceDAO {
 
 	private String value;
 
-	public ServiceDAO(String value) {
-		super();
-		this.value = value;
-	}
-	
 	public ServiceDAO() {
 		super();
+		this.value = "Value In DAO";
 	}
 
 	/* (non-Javadoc)

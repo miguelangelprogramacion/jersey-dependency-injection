@@ -50,6 +50,11 @@
             <artifactId>jersey-media-moxy</artifactId>
         </dependency>
         -->
+        <!-- Never forget: complete jersey 2 annotations support: http://stackoverflow.com/questions/9373081/how-to-set-up-jax-rs-application-using-annotations-only-no-web-xml -->
+		<dependency>
+			<groupId>org.glassfish.jersey.bundles</groupId>
+			<artifactId>jaxrs-ri</artifactId>
+		</dependency>
     </dependencies>
     <properties>
         <jersey.version>2.0</jersey.version>
